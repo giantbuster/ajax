@@ -1,0 +1,27 @@
+*{
+	font-family: helvetica;
+}
+
+.post-it{
+	background: linear-gradient(#FFFFC7, yellow);
+	width: 125px;
+	height: 125px;
+	padding: 15px;
+	display: inline-block;
+	vertical-align: top;
+	margin: 5px;
+	word-wrap: break-word;
+	overflow: hidden;
+}
+
+input[type="submit"]{
+	border: none;
+	width: 145px;
+	background: none;
+	padding: 5px 8px;
+	font-size: 10pt;
+	line-height: 1.33;
+	background: #DE723B;
+	border: 1px solid transparent;
+	cursor: pointer;
+}
